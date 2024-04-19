@@ -461,11 +461,11 @@ if __name__ == '__main__':
     # parser.add_argument('--cfg', type=str, default='models/yolov5s_SE.yaml', help='model.yaml path')
     parser.add_argument('--data', type=str, default='data/target.yaml', help='data.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path')
-    parser.add_argument('--epochs', type=int, default=1)
+    parser.add_argument('--epochs', type=int, default=200)
     parser.add_argument('--batch-size', type=int, default=32, help='total batch size for all GPUs')
     parser.add_argument('--img-size', nargs='+', type=int, default=[640, 640], help='[train, test] image sizes')
     parser.add_argument('--rect', action='store_true', help='rectangular training')
-    # 从上一次开始训练，把default改为last.pt所在位置
+    # 从上一次开始训练，把default改为true
     parser.add_argument('--resume', nargs='?', const=True, default=False, help='resume most recent training')
     parser.add_argument('--nosave', action='store_true', help='only save final checkpoint')
     parser.add_argument('--notest', action='store_true', help='only test final epoch')
