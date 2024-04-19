@@ -1,0 +1,5 @@
+train: ./DataSet2/images/train
+val: ./DataSet2/images/val
+test: ./DataSet2/images/test
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
