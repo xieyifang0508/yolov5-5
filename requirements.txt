@@ -6,6 +6,7 @@ matplotlib>=3.2.2
 numpy==1.23.5
 opencv-python==4.9.0.80
 Pillow
+# PyYAML==5.3.1
 PyYAML==5.3.1
 scipy==1.10.1
 torch>=1.7.0
